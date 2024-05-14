@@ -17,6 +17,7 @@ p{
 
 .imagem{    
     max-width: 90vw;
+    padding-left: 5vw;
     min-height: 40vh;
     margin: 2rem 0;
     border-radius: 7px;
