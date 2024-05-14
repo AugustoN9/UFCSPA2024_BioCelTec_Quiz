@@ -32,10 +32,20 @@
     color:#FFF;
     max-height: 40vw;
     margin: 0 15vw;
-    border: 2px solid red;
     
 }
 
 .botaoContinua{
-    margin-top: 0;
+    padding-bottom: 2.9rem ;
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    background: #151515;
+    position: absolute;
+    width: 90%;
+    margin: 0;
+    padding: 1rem 0;
 }

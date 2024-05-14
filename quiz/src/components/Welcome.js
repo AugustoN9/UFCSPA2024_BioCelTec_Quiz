@@ -1,5 +1,6 @@
 import { useContext } from 'react';
 import { QuizContext } from '../context/quiz';
+import rodape from './footer';
 import "./Welcome.css";
 
 const Welcome = () => {
@@ -13,6 +14,7 @@ const Welcome = () => {
             <button onClick={() => dispatch({type: "CHANGE_STAGE"})}>
                 Iniciar
             </button>
+            <rodape />
 
         </div>
     )
