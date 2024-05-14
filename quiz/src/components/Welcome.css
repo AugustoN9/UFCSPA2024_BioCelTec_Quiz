@@ -24,7 +24,7 @@ p{
 .imagem{    
     max-width: 90vw;
     min-height: 40vh;
-    margin: 2rem 0;
+    margin: 2rem;
     border-radius: 7px;
     background-color: #ffffff;
     background-image: url("../image/microscopyBackground.jpg");
