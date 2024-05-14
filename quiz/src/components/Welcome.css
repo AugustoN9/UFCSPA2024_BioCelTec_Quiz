@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap');
+
+h2{
+    font-family: "Quicksand", sans-serif;
+    font-size: 2.2rem;
+    padding: 0;
+    margin: 0;
+}
+
+p{
+    font-family: "Quicksand", sans-serif;
+    font-size: 1.6rem;
+}
+
+.imagem{    
+    max-width: 90vw;
+    min-height: 40vh;
+    margin: 2rem 0;
+    border-radius: 7px;
+    background-color: #ffffff;
+    background-image: url("../image/microscopyBackground.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 50%;
+}

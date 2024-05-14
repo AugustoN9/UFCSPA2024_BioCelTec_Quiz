@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color:#FFF;
+}
+
+body,
+html {
+    background-color: #151515;
+    background: url("../src/image/backgroundBioCell.png") no-repeat center center fixed;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+
+button {
+    font-family: "Quicksand";
+    font-weight: bold;
+    font-size: 1.2rem;
+    cursor: pointer;
+    margin-top: .9rem;
+    padding: .87rem 2.45rem;
+    background: linear-gradient(
+        90deg,
+         rgba(132, 53, 222, 1) 0%,
+          rgba(184, 84, 232, 1) 100%);
+    border-radius: .7rem;
+    border: none;
+}
+
+button:hover {
+    color: #FFF;
+    background: linear-gradient(
+        90deg,
+        rgba(184, 84, 232, 1) 0%,
+         rgba(132, 53, 222, 1) 100%);
+}
+
+button:active{
+    background: yellow;
+    border: 3px solid blue;
+    color: blue;
+}
